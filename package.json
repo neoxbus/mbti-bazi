@@ -1,0 +1,22 @@
+{
+  "name": "mbti-bazi-16x10",
+  "version": "1.0.0",
+  "private": true,
+  "description": "เว็บไซต์ 16 MBTI x 10 ธาตุ (bazi)",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "check:pages": "node scripts/check-pages.mjs --all",
+    "check:finder": "node scripts/test-finder.mjs",
+    "check:matrix": "node scripts/test-matrix-filter.mjs",
+    "check:fonts": "node scripts/test-font-fallback.mjs",
+    "check:contrast": "node scripts/check-contrast.mjs",
+    "verify": "node scripts/verify-tengods.mjs",
+    "shot": "node scripts/shot.mjs",
+    "preview": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

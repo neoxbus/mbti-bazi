@@ -1,0 +1,13 @@
+# ให้ line ending เป็น LF เสมอทุกแพลตฟอร์ม
+# กันไม่ให้ Windows (CRLF) ทำให้ diff เพี้ยนกับ Linux ที่ Vercel ใช้ build
+* text=auto eol=lf
+
+# ไฟล์ binary — ห้ามแปลง line ending
+*.woff2 binary
+*.woff binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text eol=lf
+*.ico binary

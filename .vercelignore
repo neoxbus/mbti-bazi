@@ -1,0 +1,7 @@
+# โฟลเดอร์ผลลัพธ์จากการ build ในเครื่อง — Vercel สร้างใหม่เองตอน build
+# (dist ยังถูกส่งขึ้นไปไม่ได้เพราะ Vercel สร้างจาก src/ และ scripts/)
+dist
+
+# ไฟล์ชั่วคราวของ Node
+node_modules
+npm-debug.log*

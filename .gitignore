@@ -1,0 +1,12 @@
+.vercel
+
+# ผลลัพธ์จากการ build — Vercel สร้างใหม่เอง
+dist
+
+# Node
+node_modules
+npm-debug.log*
+
+# ระบบปฏิบัติการ
+.DS_Store
+Thumbs.db
